@@ -11,6 +11,8 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './_component/dashboard/dashboard.component';
 import { RegisterFormComponent } from './_component/register-form/register-form.component';
 import { ProfileComponent } from './_component/profile/profile.component';
+import { LoginComponent } from './_component/login/login.component';
+import { HomepageComponent } from './_component/homepage/homepage.component';
 
 // Access TOKEN
 import { AuthInterceptor } from './_service/auth.interceptor';
@@ -22,12 +24,15 @@ import {NgxPaginationModule} from 'ngx-pagination';
 import { ShamsiPipe } from './_pipe/shamsi.pipe';
 import {DpDatePickerModule} from 'ng2-jalali-date-picker';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     RegisterFormComponent,
     ProfileComponent,
+    LoginComponent,
+    HomepageComponent,
     ShamsiPipe,
   ],
   imports: [
