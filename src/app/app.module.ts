@@ -12,7 +12,7 @@ import { DashboardComponent } from './_component/dashboard/dashboard.component';
 import { RegisterFormComponent } from './_component/register-form/register-form.component';
 import { ProfileComponent } from './_component/profile/profile.component';
 
-// Access TOKEN JWT
+// Access TOKEN
 import { AuthInterceptor } from './_service/auth.interceptor';
 
 // Widget Section
